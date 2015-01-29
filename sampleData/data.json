@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "index": 1,
+            "index_start_at": 56,
+            "integer": 4,
+            "float": 16.9668,
+            "name": "Gina",
+            "array": ["cat", "dog", "parrot"],
+            "object": {
+                "index": 2,
+                "wtf": true
+            },
+            "surname": "Atkins",
+            "fullname": "Pauline Underwood",
+            "email": "melanie@finch.sb",
+            "bool": true
+        }
+    ]
+}

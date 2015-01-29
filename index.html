@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JSON Viewer</title>
+    <style>
+        input {
+            margin-bottom:50px;
+        }
+
+        span {
+            display:inline-block;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            white-space:nowrap;
+        }
+
+        span.row {
+            width:100%;
+        }
+
+        span.key {
+            width:25%;
+        }
+
+        span.value {
+            width:70%;
+        }
+
+        pre {
+            background-color: ghostwhite;
+            border: 1px solid silver;
+            padding: 10px 20px;
+            margin: 20px;
+        }
+        .json-key {
+            color: brown;
+        }
+        .json-value {
+            color: navy;
+        }
+        .json-string {
+            color: olive;
+        }
+    </style>
+    <script src="libs/prettyprint.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <input type="text" id="url-input" name="data-url"><input type="button" id="url-pull" value="pull data">
+    <input type="checkbox" id="pretty-print-checkbox" name="pretty-print"><label for="pretty-print-checkbox">Use pretty print</label>
+    <div id="container"></div>
+</body>
+</html>

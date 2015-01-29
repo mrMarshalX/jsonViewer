@@ -1,0 +1,38 @@
+input {
+    margin-bottom:50px;
+}
+
+span {
+    display:inline-block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+span.row {
+    width:100%;
+}
+
+span.key {
+    width:25%;
+}
+
+span.value {
+    width:70%;
+}
+
+pre {
+    background-color: ghostwhite;
+    border: 1px solid silver;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.json-key {
+    color: brown;
+}
+.json-value {
+    color: navy;
+}
+.json-string {
+    color: olive;
+}
